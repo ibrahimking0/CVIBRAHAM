@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مرحباً، أنا [ابراهيم حماده جويده]</h1>
+            <p>مطور ويب / مصمم / [مبرمج ذكاء اصطناعي]</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">عنّي</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#contact">اتصل بي</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>عنّي</h2>
+            <div class="about-content">
+                <img src="work.jpg" alt="صورة شخصية" class="work-img">
+                <div class="bio">
+                    <p>أنا [ابراهيم حماده جويده]، أعمل في مجال [البرمجه والذكاء الاصطناعي و تطوير المواقع]. لدي خبرة في [2] سنوات في هذا المجال.</p>
+                    <p>أحب [قرأة الكتب و كرة القدم و المغامره] وأسعى دائماً لتطوير مهاراتي.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>المهارات</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>برمجه المواقع و تطوير الويب</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>python</li>
+                        <li>C++</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>التصميم</h3>
+                    <ul>
+                        <li>Photoshop</li>
+                        <li>Illustrator</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>المشاريع</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="ework.jpg" alt="مشروع 1">
+                    <h3>مشروع 1</h3>
+                    <p>مشروع عن روبوت متحرك عبر مسار وطورنا لكي يتحرك في المسار بسرعه و زوايه لفه عن طريق Arduino</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="مشروع 2">
+                    <h3>مشروع 2</h3>
+                    <p>وصف مختصر للمشروع الثاني</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>اتصل بي</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">الاسم:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">البريد الإلكتروني:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">الرسالة:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">إرسال</button>
+            </form>
+            <div class="social-links">
+                <a href="mailto:ibrahimgyeda@email.com">ibrahimgyeda@email.com</a>
+                <a href="tel:01091893051">01091893051</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 جميع الحقوق محفوظة - [ابراهيم حماده جويده ]</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
